@@ -19,7 +19,8 @@
 
 .uppermenu {
     list-style-type: none;
-    background-color: rgb(237, 237, 237);
+    background: rgb(189, 185, 250);
+    background: linear-gradient(90deg, rgba(189, 185, 250, 1) 0%, rgba(223, 252, 255, 1) 49%, rgba(211, 244, 251, 1) 100%);
     text-decoration-style: wavy;
     padding: 10px;
     padding-block: 10px;
@@ -35,8 +36,10 @@
 .menu__item a {
     color: rgba(10, 10, 125, 0.657);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 28px;
 }
+
+
 
 .menu__logo {
 
@@ -125,6 +128,7 @@ main {
 
 
 /* A VERGA */
+
 footer {
     padding-top: 3rem;
     padding-bottom: 1rem;
