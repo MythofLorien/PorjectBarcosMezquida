@@ -39,6 +39,7 @@
     color: rgba(10, 10, 125, 0.657);
     text-decoration: none;
     font-size: 28px;
+
 }
 
 
@@ -54,7 +55,7 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    background: rgb(237, 237, 237);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -134,7 +135,7 @@ main {
 footer {
     padding-top: 3rem;
     padding-bottom: 1rem;
-    background-color: #759bc1;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 footer li {
@@ -185,4 +186,19 @@ footer .redes a {
 .menuUL {
     margin: -15px;
     padding-bottom: 1rem
+}
+
+.pages__paragraph {
+    color: rgba(28, 73, 222, 0.869);
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    background: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    contain: content;
+    overflow: clip;
+    font-size: 18px;
 }
