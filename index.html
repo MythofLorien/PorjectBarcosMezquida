@@ -13,74 +13,103 @@
 
 <body>
     <header>
-        <nav class="uppermenu">
-            <img class="menu__logo" src="./img/LogoPNGBANDWHITE.png" alt="LogoPng MainMenu">
-            <ul class="menu001">
-                </li>
-                <li class="menu__item">
-                    <a href="./pages/sobreNosotros.html">Sobre Nosotoros</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./pages/barcosDisponibles.html">Barcos Disponibles</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <h3 class="header__subtitle"><u>Nuestros Servicios</u></h3>
 
-    </header>
-    <main>
-        <div class="cards">
-            <img class="card__img" src="./img/office02.jpg" alt="Office promt">
-            <h4 class="card__title" class="cardbutton">Tasaciones</h4>
-            <p>Consultá la cotización de tu embarcación con nosotros!</p>
-            <button class="cardbutton">Ver más</button>
-        </div>
-        <div class="cards">
-            <img class="card__img" src="./img/office02.jpg" alt="Office promt">
-            <h4 class="card__title" class="cardbutton">Asesoramiento</h4>
-            <p>Confiá paso a paso en nosotros para lograr tus metas.</p>
-            <button class="cardbutton">Ver más</button>
-        </div>
-        <div class="cards">
-            <img class="card__img" src="./img/office02.jpg" alt="Office promt">
-            <h4 class="card__title" class="cardbutton">Administración comercial</h4>
-            <p>Todo lo que tenes que saber sobre la compra/venta de tu barco.</p>
-            <button class="cardbutton">Ver más</button>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">Finara Yatchs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/barcosDisponibles.html">Barcos Disponibles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
 
-    </main>
-    <footer>
-        <section>
-            <div class="redes">
-                <a href=""><i class="fa fa-snapchat "></i></a>
-                <a href=""><i class="fa fa-instagram "></i></a>
-                <a href=""><i class="fa fa-facebook "></i></a>
+
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <section class="hero d-flex justify-content-center align-items-center">
+            <h2 class="text-white bg-dark p-2 rounded-pill"> Animate a la experiencia de navegar </h2>
 
-            <ul class="list">
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                </li>
 
-                <p class="copyright">
-                    Finara Yatchs @2022
-                </p>
-            </ul>
+        </section>
+        <!-- 
+        <section class="container justify-content-center align-items-center">
+            <h1 class="p-3"> Nuestros Servicios </h1> -->
+
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/administrativaTasaciones.jpg" class="card-img-top" alt="imgTasaciones">
+                        <div class="card-body">
+                            <h5 class="card-title p-3 mb-2 bg-primary text-white">Tasaciones</h5>
+                            <p class="card-text">Contamos con experiencia en el rubro de más de 50 años para asesorarte
+                                con tu barco.</p>
+                            <a href="./pages/asesoramiento/Tasaciones" class="btn btn-info">Consultar</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/volvemos-a-navegar.jpg" class="card-img-top" alt="imgTasaciones">
+                        <div class="card-body">
+                            <h5 class="card-title p-3 mb-2 bg-primary text-white">Asesoramiento</h5>
+                            <p class="card-text">Te acompañamos en el proceso del proyecto que involucre tu barco.
+                            </p>
+                            <a href="./pages/asesoramiento/Tasaciones" class="btn btn-info">Consultar</a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/tasaciones.jpg" class="card-img-top" alt="imgTasaciones">
+                        <div class="card-body">
+                            <h5 class="card-title p-3 mb-2 bg-primary text-white">Administración Comercial</h5>
+                            <p class="card-text">Enterate de los pasos a seguir para comprar/vender tu embarcación.
+                            </p>
+                            <a href="./pages/asesoramiento/Tasaciones" class="btn btn-info">Consultar</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
         </section>
 
 
 
-    </footer>
-    <script src="./JS/JaSc/bootstrap.bundle.min.js"></script>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+
+        </footer>
+        <script src="./JS/JaSc/bootstrap.bundle.min.js"></script>
 </body>
 
 

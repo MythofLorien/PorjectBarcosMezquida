@@ -9,7 +9,7 @@
 
 
 
-.menu001 {
+/* .menu001 {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -87,118 +87,9 @@ main {
 
 /* Card Styles */
 
-.cards {
-    width: 30%;
-    border: solid;
-    border-color: rgba(10, 10, 125, 0.439);
-    display: inline-block;
-    background-color: rgb(232, 232, 232);
-    padding: 10px;
-    border-radius: 10px;
-    margin-inline: 1.5%;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
+.hero {
 
-.card__paragraph {
-    font-size: 16px;
-}
+    background-image: url("../img/nav002.jpg");
+    height: 90vh;
 
-.card__img {
-    width: 100%;
-    border-radius: 10%;
-}
-
-.card__title {
-    font-size: 24px;
-}
-
-.cardbutton {
-    background-color: rgba(10, 10, 125, 0.439);
-    border: none;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 10px;
-}
-
-
-.card__img,
-.card__title,
-.card__paragraph {
-    margin-bottom: 5px;
-}
-
-
-/* A VERGA */
-
-footer {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-}
-
-footer li {
-    padding: 1rem;
-    display: inline-block;
-    padding: 0 15px;
-}
-
-footer li a {
-    color: #252c7fe0;
-}
-
-footer ul {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 15px;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-footer .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 10px;
-    color: #252c7fe0;
-}
-
-footer .redes {
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-footer .redes a {
-    font-size: 20px;
-    color: #252c7fe0;
-    font-size: 20px;
-    border: 1px solid;
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-}
-
-.menuUL {
-    margin: -15px;
-    padding-bottom: 1rem
-}
-
-.pages__paragraph {
-    color: rgba(28, 73, 222, 0.869);
-    width: 100%;
-    height: 50%;
-    margin: 0;
-    background: white;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    contain: content;
-    overflow: clip;
-    font-size: 18px;
 }
