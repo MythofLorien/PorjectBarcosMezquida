@@ -89,10 +89,15 @@ main {
 
 .hero {
 
-    width: 100%;
     background-image: url("../img/nav002.jpg");
     height: 90vh;
 
+}
+
+.footerposition {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
 }
 
 .footer-basic {
