@@ -1,46 +1,60 @@
-// / body {
-//     background-color: rgb(236, 236, 236);
+/ body {
+    background-color: rgb(236, 236, 236);
 
-//     #containter-cards {
-//         padding: 1rem;
-//         background-color: white;
-//         border-radius: 2%;
-//     }
-// }
+    #containter-cards {
+        padding: 1rem;
+        background-color: white;
+        border-radius: 2%;
+    }
+}
 
-// h5 {
-//     color: $mainColor
-// }
+h5 {
+    color: $mainColor
+}
 
-// @media (max-width: 768px) {
-//     .card {
-//         border: none;
+@media (max-width: 768px) {
+    .card {
+        border: none;
 
-//     }
+    }
 
-// }
+}
 
-// .navg a {
-//     color: #f4f4f4 !important;
-//     font-family: 'Montserrat';
-//     font-size: 23px;
-//     padding: 10px 15px;
-//     text-align: center;
-//     text-transform: uppercase;
-//     text-shadow: 3px 3px 2px rgba(0, 0, 2, 0.7);
-// }
+.navg a {
+    color: #f4f4f4 !important;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px rgba(0, 0, 2, 0.7);
+}
 
-// .heroSobreNosotros {
-//     justify-content: space-around
-// }
+.heroSobreNosotros {
+    justify-content: space-around
+}
 
-// .h1DondeTrabajamos {
-//     margin-bottom: 1rem;
-// }
+.h1DondeTrabajamos {
+    margin-bottom: 1rem;
+}
 
-// .trabajoGoggleZones {
-//     display: flex;
-//     justify-content: space-between;
-//     margin-top: 200px;
-//     position: relative;
-// }
+.trabajoGoggleZones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    position: relative;
+}
+
+$unit: 8px;
+
+@function size($value) {
+    @return $value * $unit;
+}
+
+@media (max-width: 991.98px) {
+    .selector {
+        padding: calc(1.325rem + 0.9vw);
+        font-size: 1.125rem;
+        /* 1.125rem is small enough, so RFS won't rescale this */
+    }
+}

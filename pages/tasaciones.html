@@ -10,23 +10,93 @@
     <meta name="keywords"
         content="barcos,velero, yate, crucero, Argentina, Club Nautico, navegar, compra, venta, tasaciones, embarcaciones, herencia, velas, genoa, rio, mar, pesca, paseo, vacaciones, familia">
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../pagesBootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">Finara Yatchs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/barcosDisponibles.html">Barcos Disponibles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="../index.html">Tasaciones</a>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/TAZA_02_50.jpg" class="d-block w-100" alt="Tasaciones slider">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black bg-white p-2 rounded-pill">Por que cotizar con nosotros?</h5>
+                        <p class="text-black bg-white p-2 rounded-pill">50 años en el mercado naval que nos avalan.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/TASA01.png" class="d-block w-100" alt="clientes">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black bg-white p-2 rounded-pill">Mas de 350 clientes satisfechos con sus
+                            operaciones.</h5>
+                        <p class="text-black bg-white p-2 rounded-pill">Donde sea que vayas, si hay un barco, saben de
+                            Finara.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
 
 
         <section class="container">
-            <div class="row mt-5">
-                <h1> Hace tu tasación con nosotros</h1>
+            <div class="row mt-5 mb-6">
+                <h1> Por que TASAR con nosotros?</h1>
                 <div class="col-md-8 d-flex flex-column justify-content-center">
-                    <p> En Finara contamos con mas de 50 años en el mercado náutico.
-                        Nuestro grupo de especialistas cotizan en el dia teniendo en cuenta los mercados mas importantes
-                        a nivel global.
-                        Si necesitas saber el valor, año de construccion de tu embarcacion, su historia, astillero,
-                        arquitecto... No dudes en ponerte en contacto con nosotros!
-                        Completa el forumario a continuacion para recibir nuestra tasación sin cargo.
+                    <p>50 años en el mercado naval nos avalan. Mas de 300 clientes satisfechos con sus operaciones. No
+                        dudes en dejarnos tu consulta en nuestra seccion de contacto !
+                        Ofrecemos contizacion parcial en 48hs sin costo en caso de realizar la operacion con nosotros.
                     </p>
                 </div>
 
@@ -42,25 +112,19 @@
 
         </section>
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../img/yacht-wallpaper-pictures-9808-10204-hd-wallpapers.jpg" class="d-block w-100"
-                        alt="slider1">
-                </div>
-                <div class="carousel-item">
-                    <img src="../img/volvemos-a-navegar.jpg" class="d-block w-100" alt="slider2">
-                </div>
-                <div class="carousel-item">
-                    <img src="../img/clubbarcos.jpeg" class="d-block w-100" alt="slider3">
-                </div>
-            </div>
+
+
+
+        <div class="container-fluid">
+
         </div>
 
+        </section>
 
     </header>
 
     <main>
+
 
     </main>
 
@@ -83,7 +147,7 @@
             <p class="copyright">Finara Yatchs © 2022 - Lara Mezquida</p>
         </footer>
     </div>
-    <script src="../jsmin2/bootstrap.bundle.min.js"></script>
+    <script src="../js/js2/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
